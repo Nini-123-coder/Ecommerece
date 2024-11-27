@@ -1,0 +1,115 @@
+.wholeCon{
+    height: 120vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.WholeBodyUpper{
+    height: 25%;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .WholeBodyUpperHolder{
+        width: 80%;
+        height: 100%;
+        /* background: green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.WholeBody{
+    height: 75%;
+    width: 70%;
+    /* background: #000; */
+    
+   
+}
+.wholeimage{
+    height: 91%;
+    width: 100%;
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.WholeBodyUpperLeft{
+    height: 50%;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.peruLine{
+    height: 10%;
+    width: 100%;
+    /* background: #000; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+
+    & hr{
+        height: 3px;
+        width: 20%;
+        background: orange;
+        border: none;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+}
+.MiddleTexts{
+    font-size: 20px;
+    font-family: sans-serif;
+
+        & em{
+            font-family: "lucida calligraphy";
+        }
+}
+.WholeBodyUpperRight{
+    height: 100%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+}
+.WholeBodyUpperRightHolder{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+
+    & p{
+        font-size: 23px;
+    }
+}
+.circleBody{
+    height: 9%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.circle{
+    height: 20px;
+    background-color: grey;
+    width: 20px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+.circle:hover{
+    cursor: pointer;
+    background-color: orange;
+}

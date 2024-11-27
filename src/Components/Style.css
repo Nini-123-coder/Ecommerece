@@ -1,0 +1,28 @@
+.MainLoaderHolder{
+    width: 100%;
+    height: 100vh;
+    background: #fcb900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoaderHolder{
+    width: 20%;
+    height: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fcb900;
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999; */
+}
+
+.miniBoxHolder{
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+}
+

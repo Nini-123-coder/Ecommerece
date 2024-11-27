@@ -1,0 +1,212 @@
+.BodyWrapper{
+    width: 100%;
+    height: 60vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BodyWrap{
+    width: 90%;
+    height: 85%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+.Body{
+    width: 90%;
+    height: 80vh;
+    background-color: whitesmoke;
+    display: flex;
+    position: relative;
+    border: none;
+}
+.Line{
+    width: 20%;
+    height: 40%;
+    background-color: whitesmoke;
+    border: none;
+    animation: roll-in-left 2s ease-out both;
+    animation-delay:  4s;
+
+& hr{
+        height: 3%;
+        width: 30%;
+        background-color: orange;
+        border: none;
+        margin-bottom: 2px;
+        animation: roll-in-left 2s ease-out both;
+        animation-delay:4s ;
+}
+}
+
+@keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+}
+
+p{
+    font-size: 300%;
+    font-weight: 200;
+    font-family: "Fantasy";
+    font-style: normal;
+}
+
+.Main{
+    width: 30%;
+    height: 40%;
+    background-color: whitesmoke;
+    position: relative;
+    margin-left: 60vh;
+    /* margin-top: 1vh; */
+    border: none;
+    animation: roll-in-left 2s ease-out both;
+    animation-delay:  4s;
+
+}
+.mainside1{
+    height: 100%;
+    width: 20%;
+}
+.mainside2{
+    height: 100%;
+    width: 60%;
+}
+
+h5{
+    font-size:165%;
+    font-weight: 700;
+    font-family: "Days one", sans-serif;
+}
+
+h6{
+    font-size: 160%;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 549;
+    font-style: italic;
+}
+
+
+.Main2{
+    width: 30vw;
+    height: 20%;
+    margin-top: 13%;
+    border: none;
+}
+
+h3{
+    font-size: 17px;
+    color: grey;
+    font-weight: lighter;
+    font-family: 'Montserrat','Almoni DL AAA',Arial,sans-serif;
+}
+
+.Main3{
+    width: 32vw;
+    height: 98h;
+    background-color:whitesmoke;
+    margin-top: 1%;
+    border: none;
+}
+strong{
+    font-size: 17px;
+    color: gray;
+    font-weight: lighter;
+    font-family: 'Montserrat','Almoni DL AAA',Arial,sans-serif;
+}
+.diffrent{
+    width: 100%;
+    height: 20vh;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box{
+    width: 60%;
+    height: 20%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 13px;
+}
+
+kh4{
+    
+    font-weight: lighter;
+    font-family: 'BebasNeuePro-Book';
+}
+@media screen and (max-width: 768px) {
+    .Body{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 10px;
+   
+        /* background: #000; */
+    }
+    .h6{
+        width: 400px;
+        gap: 10px;
+    }
+    .box{
+        width: 100%;
+    }
+    .diffrent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .diffrent:hover{
+        width: 100px;
+        
+        /* background-color: orange; */
+    }
+    .h4sec{
+        /* width: 600px; */
+        font-size: 10px;
+        /* height: 5px; */
+        /* background: #000; */
+    }
+    .h4sec:hover{
+        width: 350px;
+        background-color: transparent;
+        
+    }
+    .h3{
+        width: 500px;
+    }
+    .h5{
+        width: 300px;
+    }
+    p{
+        width: 200px;
+        
+    }
+    .Main{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 00px;
+    }
+}
